@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Foundry build artifacts & dependencies
+contracts/lib/
+out/
+cache/
+broadcast/
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Databases
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# File storage & uploads
+uploads/
+server/.seed/
+server/data/
+
+# Build outputs
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
